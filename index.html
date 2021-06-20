@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Paskaita</title>
+
+    <style>
+        .container {
+
+            width: 800px;
+            height: 800px;
+        }
+
+        /* Fono spalvos */
+
+        .fonas {
+            background-color: #657AD3;
+            opacity: 1;
+        }
+
+        .fonas-rgb {
+            background-color: rgb(100, 120, 211);
+
+        }
+
+        .fonas-rgba {
+            background-color: rgba(100, 120, 211, 1)
+
+        }
+
+        /* Paveiksliukas fone */
+        .paveiksliukas {
+            background-image: url("https://images.unsplash.com/photo-1623750340622-81cfd2ca7918?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+            background-color: grey;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            /* background-position: 5px 5px;; */
+            /* background-position: center center;
+            background-size: 50% 50%; */
+            /* Tas pats kas background-size: 50% 50%; */
+            /* background-size: contain;   */
+            /* background-size: cover; */
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid black;
+            width: 100%;
+            margin-bottom: 1200px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding-left: 20px;;
+
+        }
+
+        th {
+            text-align: left;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            background-color: greenyellow;
+            color: grey;
+            font-size: 18px;
+        }
+
+        td {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 0.6667rem;    
+        }
+        tr:nth-child(even){
+            background-color: gainsboro;
+        }
+        tr:hover {
+            background-color: rgb(255, 220, 220);
+            
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+              <th>Vardas</th>
+              <th>Pavardė</th>
+              <th>Amžius</th>
+            </tr>
+        <tr>
+          <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+    </table>
+    <div class="container fonas">
+        <div class="paveiksliukas">
+            Tekstas
+        </div>
+    </div>
+
+</body>
+</html>
